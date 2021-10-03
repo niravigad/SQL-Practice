@@ -1,12 +1,20 @@
 Employee (eid, ename, salary, did, classification)
+
 Department (did, dname, dfloor, head)
+
 Budget (did, byear, budget)
-Project (pid, pname, did, budget, duedate) Onproject (pid, eid, fdate)
+
+Project (pid, pname, did, budget, duedate)
+
+Onproject (pid, eid, fdate)
+
 
 Name (eid) contains information about the company's employees. The employee has an employee ID number
-Each employee is associated with a department, and in each. (Classification) and classification (did) department to which he belongs, (salary)
-. The department has employees. The classification is a complete value from 1 to 10
-Floor, (dname) name, (did) contains information about the company's departments. The department has a department department ID
+Each employee is associated with a department, and in each. (Classification) and classification (did) department to which he belongs, (salary).
+
+The department has employees. The classification is a complete value from 1 to 10
+Floor, (dname) name, (did) contains information about the company's departments.
+The department has a department department ID
 The class card is  card and  each class has a. (Head) class card  as well as an ID number of m (dfloor)
 Works for a company.
 Did, of each class. It contains a class ID  contains information about the budget
